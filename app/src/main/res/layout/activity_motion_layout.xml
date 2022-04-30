@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    app:layoutDescription="@xml/activity_motion_layout_scene"
+    tools:context=".MotionLayoutActivity">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_image"
+    android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ancient House"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/white"/>
+</androidx.constraintlayout.motion.widget.MotionLayout>
