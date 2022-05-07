@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AnimationAssignment</string>
-    <string name="animate">Animate</string>
+    <string name="animate">Roll your DIE</string>
+    <string name="lucky_number_title">Enter your lucky number in the range of 1 to 6(inclusive)</string>
 </resources>
